@@ -12,7 +12,7 @@
   ],
   "author": "Nico Domino <yo@ndo.dev>",
   "license": "MIT",
-  "homepage": "https://ndo.dev/sc/",
+  "homepage": "https://ndo.dev/sc",
   "bin": {
     "shorten": "cli.js"
   },
