@@ -6,7 +6,10 @@
   "scripts": {
     "shorten": "netlify-shortener"
   },
-  "keywords": ["netlify", "url shortener"],
+  "keywords": [
+    "netlify",
+    "url shortener"
+  ],
   "author": "Nico Domino <yo@ndo.dev>",
   "license": "MIT",
   "homepage": "https://ndo.dev/sc/",
