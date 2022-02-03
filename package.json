@@ -6,9 +6,9 @@
   "scripts": {
     "shorten": "netlify-shortener"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["netlify", "url shortener"],
+  "author": "Nico Domino <yo@ndo.dev>",
+  "license": "MIT",
   "dependencies": {
     "netlify-shortener": "^2.4.0"
   }
