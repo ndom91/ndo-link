@@ -15,7 +15,7 @@ $ git init
 2. Initialize a new npm project and install `netlify-shortener`
 
 ```bash
-$ npm init -y
+$ npm init -y && npm install netlify-shortener
 ```
 
 3. Add a `_redirects` file
