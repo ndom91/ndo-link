@@ -2,15 +2,37 @@
 
 Based on Kent C. Dodd's [netlify-shortener](https://github.com/kentcdodds/netlify-shortener).
 
-Setting up your own URL shortener based off of this is easy!
+## 👷 Setup
+
+Setting up your own URL shortener is easy!
 
 1. Setup a new Github repo
-2. Initialize a new npm project and install `netlify-shortener`
-3. Add a `_redirects` file
-4. Commit everything to the new repo
-5. Add it to a new free Netlify project
 
-That's all thats necessary to get up and running. You can then add a custom domain in the Netlify settings and add new shortcuts via the instructions below.
+```bash
+$ git init
+```
+
+2. Initialize a new npm project and install `netlify-shortener`
+
+```bash
+$ npm init -y
+```
+
+3. Add a `_redirects` file
+
+```
+$ touch _redirects
+```
+
+4. Commit everything to the new repo
+
+```bash
+$ git commit -am "feat: initial commit :tada:"
+```
+
+5. Add it to a new free Netlify project (https://app.netlify.com/start)
+
+You can then add a custom domain in the Netlify settings and add new shortcuts via the instructions below.
 
 ## 🚀 Usage
 
