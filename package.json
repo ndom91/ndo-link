@@ -9,6 +9,10 @@
   "keywords": ["netlify", "url shortener"],
   "author": "Nico Domino <yo@ndo.dev>",
   "license": "MIT",
+  "homepage": "https://ndo.dev/sc/",
+  "bin": {
+    "shorten": "cli.js"
+  },
   "dependencies": {
     "netlify-shortener": "^2.4.0"
   }
